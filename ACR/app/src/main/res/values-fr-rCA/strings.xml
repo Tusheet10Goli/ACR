@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EVService</string>
+    <string name="evopt_title">"Affichage rehaussé "</string>
+    <string name="evopt_subtitle">"Activé par la Reconnaissance Automatique de Contenu (« RAC ») "</string>
+    <string name="evopt_introduce">L’activation du service RAC sur cet appareil nous permettra de vous fournir ce qui suit :</string>
+    <string name="evopt_consent">JE CONSENS À ACTIVER LE SERVICE RAC SUR CE TÉLÉVISEUR.</string>
+    <string name="evopt_unconsent">JE NE CONSENS PAS À ACTIVER LE SERVICE RAC SUR CE TÉLÉVISEUR.</string>
+    <string name="evopt_intro1">En vue d’offrir ces fonctions (et pour nous aider à améliorer nos produits et nos services), le service RAC récoltera le contenu vidéo et audio affiché à l’écran dès que vous aurez fourni votre consentement ci-après. Les données, combinées avec les identifiants (que vous pouvez réinitialiser en tout temps) et l’adresse IP du téléviseur, seront partagées avec des entreprises tierces autorisées qui nous assisteront en utilisant des informations supplémentaires pour offrir lesdites fonctions sur le téléviseur et diffuser la publicité sur les autres appareils partageant une adresse IP avec le téléviseur.</string>
+    <string name="evopt_intro3">Vous pouvez retirer votre consentement et désactiver ce service RAC en tout temps en allant dans le menu « paramètres » du téléviseur.</string>
+    <string name="evopt_intro2_usa">Pour en savoir plus sur le service RCA et la manière dont nous récoltons, utilisons et partageons vos informations, veuillez vous référer à notre politique de confidentialité en visitant le lien https://www.hisense-usa.com/tv/privacy, et à nos conditions générales en visitant le lien https://www.hisense-usa.com/tv/terms.</string>
+    <string name="evopt_intro2_ca">Pour en savoir plus sur le service RCA et la manière dont nous récoltons, utilisons et partageons vos informations, veuillez vous référer à notre politique de confidentialité en visitant le lien http://hisense-canada.com/privacy-policy-amazon-alexa, et à nos conditions générales en visitant le lien http://hisense-canada.com/terms-of-service-amazon-alexa.</string>
+    <string name="evset_consent">Activer</string>
+    <string name="evset_unconsent">Annuler</string>
+    <string name="evset_function1">Reconnaissance automatique du contenu</string>
+    <string name="evset_function2">"Adaptation automatique du mode d'image "</string>
+    <string name="evset_function3">"Adaptation automatique du mode sonore "</string>
+    <string name="resetadid_title">"Réinitialiser l'ID de la publicité "</string>
+    <string name="reset_intro">Ceci efface votre historique et remet votre profil à l’état initial. Voulez-vous continuer?</string>
+    <string name="evset_intro1">Confirmez votre activation de la visualisation rehaussée et service ACR pour ce téléviseur.</string>
+    <string name="evset_intro3">Vous pouvez désactiver le service ACR n’importe quand par l’entremise du menu de ce téléviseur.</string>
+</resources>

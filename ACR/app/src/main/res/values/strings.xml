@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name" translatable="false">EVService</string>
+    <string name="title_activity_reset_ad" translatable="false">ResetAdActivity</string>
+    <string name="evopt_title">Enhanced Viewing</string>
+    <string name="evopt_subtitle">Enabled by Automatic Content Recognition (ACR)</string>
+    <string name="evopt_introduce">Activating the ACR service on this TV allows us to provide you with</string>
+    <!--<string name="evopt_function1">Recommendations based on content viewed on this TV</string>-->
+    <!--<string name="evopt_function2">Trending content</string>-->
+    <!--<string name="evopt_function3">Information about popular TV content</string>-->
+    <string name="evopt_consent">I CONSENT TO ACTIVATE THE ACR SERVICE IN THIS TV.</string>
+    <string name="evopt_unconsent">I DO NOT CONSENT TO ACTIVATE THE ACR SERVICE IN THIS TV.</string>
+    <string name="evopt_intro1">In order to provide these features(and to help us improve our products and services), after you provide your consent below, the ACR service will collect broadcast TV and other onscreen audio data. This will be combined with a unique identifier (which may be reset by you at any time) &amp; the IP address of this TV, and then shared with authorized partners who may use additional information to help us deliver the above features on this TV, and advertising on other devices that share the IP address of this TV.</string>
+
+    <string name="evopt_intro2_usa">"For further information about the ACR service and how we collect, use and share your information, please visit our Privacy Policy at https://www.hisense-usa.com/tv/privacy, and our Terms and Conditions at https://www.hisense-usa.com/tv/terms."</string>
+    <string name="evopt_intro2_ca">"For further information about the ACR service and how we collect, use and share your information, please visit our Privacy Policy at http://hisense-canada.com/privacy-policy-amazon-alexa, and our Terms and Conditions at http://hisense-canada.com/terms-of-service-amazon-alexa."</string>
+    <string name="evopt_intro3">You may withdraw your consent and disable the ACR service at any time in the Settings menu in this TV.</string>
+    <string name="evset_intro1">Confirm your activation of Enhance Viewing and ACR service in this TV.</string>
+    <!--<string name="evset_intro2">The following functions will be enabled.</string>-->
+    <string name="evset_intro3">You can disable ACR service at anytime in settings menu in this TV.</string>
+    <string name="evset_function1">Automatic Content Recognition</string>
+    <string name="evset_function2">Picture Mode Auto Adaptation</string>
+    <string name="evset_function3">Sound Mode Auto Adaptation</string>
+    <!--<string name="evset_function4">Content Recommendation</string>-->
+    <string name="evset_consent">Activate</string>
+    <string name="evset_unconsent">Cancel</string>
+    <string name="title_activity_evconsent" translatable="false">EVConsent</string>
+    <string name="resetadid_title">Reset Advertising ID</string>
+    <string name="reset_intro">This will clear your history and reset your profile. Do you want to continue?</string>
+    <string name="toast_cancel_apq" translatable="false">The picture mode adaptation function will be closed.</string>
+    <string name="toast_cancel_aaq" translatable="false">The sound mode adaptation function will be closed.</string>
+    <string name="toast_no_internet" translatable="false">No internet. Please start this service later.</string>
+
+</resources>

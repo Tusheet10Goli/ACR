@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EVService</string>
+    <string name="evopt_title">Vista Optimizada</string>
+    <string name="evopt_subtitle">Habilitado por Reconocimiento Automático de contenido (En inglés: )Automatic Content Recognition (ACR)</string>
+    <string name="evopt_introduce">La activación del servicio ACR en este televisor nos permite proporcionarle:</string>
+    <string name="evopt_consent">ACEPTO ACTIVAR EL SERVICIO ACR EN ESTE TELEVISOR.</string>
+    <string name="evopt_unconsent">"NO ACEPTO ACTIVAR EL SERVICIO ACR EN ESTE TELEVISOR. "</string>
+    <string name="evopt_intro1">"Con el fin de brindarle estas características (y para ayudarnos a mejorar nuestros productos y servicios), después de que usted otorgue su consentimiento al pie de esta página, el servicio ACR recolectará datos de transmisión de televisión y otros de audio en la pantalla. Esta información se combinará con un identificador único (que usted puede reiniciar en cualquier momento) y la dirección IP de este televisor. A continuación será compartida con asociados autorizados que pueden utilizar información adicional para ayudarnos a ofrecerle las características descritas en este televisor y publicidad en otros dispositivos que comparten la dirección IP de este televisor. "</string>
+    <string name="evopt_intro3">Usted puede retirar su consentimiento y deshabilitar el servicio ACR en cualquier momento, en el menú de configuraciones de este televisor.</string>
+    <string name="evopt_intro2_usa">Para obtener más información acerca del servicio ACR y sobre cómo recolectamos, utilizamos y compartimos su información, por favor visite nuestra Política de Privacidad en https://www.hisense-usa.com/tv/privacy y nuestros Términos y Condiciones en https://www.hisense-usa.com/tv/terms.</string>
+    <string name="evopt_intro2_ca">Para obtener más información acerca del servicio ACR y sobre cómo recolectamos, utilizamos y compartimos su información, por favor visite nuestra Política de Privacidad en http://hisense-canada.com/privacy-policy-amazon-alexa y nuestros Términos y Condiciones en http://hisense-canada.com/terms-of-service-amazon-alexa.</string>
+    <string name="evset_consent">Activar</string>
+    <string name="evset_unconsent">Cancelar</string>
+    <string name="evset_function1">Reconocimiento automático de contenido</string>
+    <string name="evset_function2">Adaptación automática del modo de imagen</string>
+    <string name="evset_function3">Adaptación automática del modo de sonido</string>
+    <string name="resetadid_title">Restablecer la ID de publicidad</string>
+    <string name="reset_intro">Esto borrará su historial y restablecerá su perfil. ¿Desea continuar?</string>
+    <string name="evset_intro1">Confirme su activación al servicio de Visualización Mejorada y ACR en este televisor.</string>
+    <string name="evset_intro3">Puede desactivar el servicio ACR en cualquier momento en el menú de configuración de este televisor.</string>
+</resources>

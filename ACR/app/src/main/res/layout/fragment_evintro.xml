@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F344D">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="48px"
+                android:layout_marginTop="48px"
+                android:text="@string/evopt_title"
+                android:textColor="@color/my_content"
+                android:textSize="36px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6px"
+                android:layout_marginTop="48px"
+                android:ellipsize="end"
+                android:text="@string/evopt_subtitle"
+                android:textColor="@color/my_content"
+                android:textSize="20px" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginTop="22px"
+            android:background="#33FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48px"
+            android:layout_marginTop="18px"
+            android:text="@string/evopt_introduce"
+            android:textColor="@color/my_content"
+            android:textSize="30px" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48px"
+            android:layout_marginTop="96px">
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_weight="1"
+                android:src="@drawable/ic_acr" />
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_weight="1"
+                android:src="@drawable/ic_pm" />
+
+            <ImageView
+                android:layout_width="180px"
+                android:layout_height="180px"
+                android:layout_weight="1"
+                android:src="@drawable/ic_sm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48px">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="30px"
+                android:text="@string/evset_function1"
+                android:textAlignment="center"
+                android:textColor="@color/my_content"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/evset_function2"
+                android:textAlignment="center"
+                android:textColor="@color/my_content"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/evset_function3"
+                android:textAlignment="center"
+                android:textColor="@color/my_content"
+                android:textSize="30px" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48px"
+            android:layout_marginTop="72px"
+            android:text="@string/evopt_intro1"
+            android:textColor="@color/my_content"
+            android:textSize="20px" />
+
+        <TextView
+            android:id="@+id/termlinks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48px"
+            android:layout_marginTop="18px"
+            android:textColor="@color/my_content"
+            android:textSize="20px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="48px"
+            android:layout_marginTop="18px"
+            android:text="@string/evopt_intro3"
+            android:textColor="@color/my_content"
+            android:textSize="20px" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="92px"
+            android:layout_marginVertical="66px">
+
+            <Button
+                android:id="@+id/unconsent"
+                android:layout_width="820px"
+                android:layout_height="60px"
+                android:layout_marginHorizontal="14px"
+                android:onClick="notConsentHandler"
+                android:text="@string/evopt_unconsent"
+                android:textAlignment="center"
+                android:textSize="24px"
+                android:background="@drawable/button_background"
+                android:textColor="@color/my_button_content">
+                <requestFocus />
+            </Button>
+
+            <Button
+                android:id="@+id/consent"
+                android:layout_width="820px"
+                android:layout_height="60px"
+                android:layout_marginHorizontal="14px"
+                android:onClick="consentHandler"
+                android:text="@string/evopt_consent"
+                android:textAlignment="center"
+                android:textSize="24px"
+                android:background="@drawable/button_background"
+                android:textColor="@color/my_button_content"/>
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

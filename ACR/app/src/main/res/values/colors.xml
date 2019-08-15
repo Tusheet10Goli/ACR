@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_button_pressed">#80475275</color>
+    <color name="my_button_focused">#6675a2</color>
+    <color name="my_button_default">#CC475275</color>
+    <color name="my_content">#FFFFFF</color>
+    <color name="my_button_content">#B3FFFFFF</color>
+    <color name="my_background_light">#2F344D</color>
+    <color name="my_background_dark">#222536</color>
+    <color name="my_button_selected">#475275</color>
+    <color name="my_text_default">#DAFFFFFF</color>
+    <color name="my_text_subtitle">#81FFFFFF</color>
+    <color name="my_text_selected">#FFFFFFFF</color>
+</resources>
